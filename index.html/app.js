@@ -16,3 +16,29 @@ let remainder = number % number2;
 // Logical Operators
 let isPositive = number > 0;
 let isEven = number % 2 === 0;
+
+
+// Conditional Statements
+
+// if...else
+console.log('\nConditional Statements (if...else):');
+if (number > 0) {
+    console.log('The number is positive.');
+} else if (number < 0) {
+    console.log('The number is negative.');
+} else {
+    console.log('The number is zero.');
+}
+
+// switch
+console.log('\nConditional Statements (switch):');
+switch (number) {
+    case 10:
+        console.log('The number is 10.');
+        break;
+    case 20:
+        console.log('The number is 20.');
+        break;
+    default:
+        console.log('The number is neither 10 nor 20.');
+}
